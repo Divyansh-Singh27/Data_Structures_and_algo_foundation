@@ -12,6 +12,7 @@ public class print_Increasing {
 	     printIncreasing(n);
 
 	 }
+	// 2-Print Increasing
 	
 	 public static void printIncreasing(int n) {
 	        if (n == 0) {

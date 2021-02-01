@@ -21,18 +21,6 @@ public class print_Decreasing {
 	        printDecreasing(n-1);
 	    }
 	
-	 // 2-Print Increasing
-	 public static void printIncreasing(int n) {
-	        if (n == 0) {
-	            return;
-	        }
-
-	        
-	        printIncreasing(n - 1);
-	        System.out.println(n);
-	    }
-
-	
 
 	
 }

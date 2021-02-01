@@ -6,10 +6,9 @@ public class print_Increasing {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		Scanner sc = new Scanner(System.in);
-		 int n = sc.nextInt();
-	     printIncreasing(n);
+		int n = sc.nextInt();
+	        printIncreasing(n);
 
 	 }
 	// 2-Print Increasing
@@ -18,9 +17,7 @@ public class print_Increasing {
 	        if (n == 0) {
 	            return;
 	        }
-
-	        
-	        printIncreasing(n - 1);
+		printIncreasing(n - 1);
 	        System.out.println(n);
 	    }
 
